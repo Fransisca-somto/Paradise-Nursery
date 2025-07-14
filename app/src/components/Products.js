@@ -1,7 +1,7 @@
 import React, { lazy, useState } from "react"
 import { Link, Outlet } from 'react-router-dom'
 import { useSelector } from "react-redux"
-const bgImage = lazy(()=>import("../assets/grocery-store.png"))
+import bgImage from "../assets/grocery-store.png"
 const Carts = lazy(()=>import("./carts/Carts"))
 
 const Products = () => {

@@ -2,7 +2,6 @@
   "name": "paradise-nursery-shopping",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fransisca-somto.github.io/Paradise-Nursery-Shopping/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "@testing-library/jest-dom": "^5.11.8",
