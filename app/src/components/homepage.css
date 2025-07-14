@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.homepages {
+    height: 100vh;
+    background: url("https://media.architecturaldigest.com/photos/5dcde00380598800086215f6/16:9/w_2560%2Cc_limit/Osofsky_Oct19-5.jpg");
+    padding-top: 9em
+}
+
+.homepage {
+    display: flex;
+    color: white;
+    background-color: rgb(2, 26, 2);
+    border-radius: 2em;
+    width: 70%;
+    padding: 1em;
+    align-self: center;
+    justify-self: center;
+    backdrop-filter: blur(20px)
+}
+
+.homepage > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage button {
+    width: 10em;
+    height: 3em;
+    border: 0;
+    background-color: rgb(54, 233, 0);
+    color: rgb(0, 32, 0);
+    font-weight: 1em;
+    border-radius: 1em;
+}
