@@ -1,13 +1,13 @@
-import React from "react";
+import React, { lazy } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from "./components/Homepage"
-import Products from "./components/Products"
-import Foliage from "./components/foliage/Foliage"
-import Flowering from "./components/flowering/Flowering"
-import Succulents from "./components/succulent/Succulent";
-import Ferns from "./components/ferns/Ferns";
-import Carts from "./components/carts/Carts";
 import './style.css'
+const Home = lazy(()=>import("../src/components/Homepage"))
+const Products = lazy(()=>import("../src/components/Products"))
+const Foliage = lazy(()=>import("../src/components/foliage/Foliage"))
+const Flowering = lazy(()=>import("../src/components/flowering/Flowering"))
+const Succulents = lazy(()=>import("../src/components/succulent/Succulent"))
+const Ferns = lazy(()=>import("../src/components/ferns/Ferns"))
+const Carts = lazy(()=>import("../src/components/carts/Carts"))
 
 const App = () => {
     return (
